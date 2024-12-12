@@ -6,15 +6,15 @@ import Bootstrap from "../Assets/Bootstrap.png";
 import Tailwind from "../Assets/Tailwind.png";
 import JavaScript from "../Assets/Javascript.png";
 import ReactJS from "../Assets/React.png";
-import Node from "../Assets/Node.png";
-import Express from "../Assets/Express.png";
 import MongoDB from "../Assets/MongoDB.png";
-import Firebase from "../Assets/Firebase.png";
 import Flowbite from "../Assets/Flowbite.png";
 import MaterialUI from "../Assets/Material.png";
 import Github from "../Assets/GitHub.png";
 import Jira from "../Assets/Jira.png";
 import "./InfinityScroll.css";
+import Java from "../Assets/java.png";
+import Spring from "../Assets/springboot.png";
+import Sql from "../Assets/mysql.png";
 
 
 function InfinityScroll() {
@@ -60,47 +60,43 @@ function InfinityScroll() {
             </div>
             <div className="w-[1100px] mx-auto max-w-full flex items-center whitespace-nowrap  mt-10 overflow-hidden ">
                 <div className="flex items-center gap-1 scroll-right-to-left scroll-left-to-right">
-                    <img src={Node} alt="Node" className=' mx-10 min-w-[130px] w-[130px]' />
-                    <img src={Express} alt="Express" className=' mx-10 min-w-[130px] w-[130px]' />
+                    <img src={Sql} alt="Node" className=' mx-10 min-w-[60px] w-[60px]' />
+                    <img src={Java} alt="Node" className=' mx-10 min-w-[60px] w-[60px]' />
+                    <img src={Spring} alt="Express" className=' mx-10 min-w-[60px] w-[60px]' />
                     <img src={MongoDB} alt="MongoDB" className=' mx-10 min-w-[130px] w-[130px]' />
-                    <img src={Firebase} alt="Firebase" className=' mx-10 min-w-[130px] w-[130px]' />
-                    <img src={Node} alt="Node" className=' mx-10 min-w-[130px] w-[130px]' />
-                    <img src={Express} alt="Express" className=' mx-10 min-w-[130px] w-[130px]' />
+                    <img src={Sql} alt="Node" className=' mx-10 min-w-[60px] w-[60px]' />
+                    <img src={Java} alt="Node" className=' mx-10 min-w-[60px] w-[60px]' />
+                    <img src={Spring} alt="Express" className=' mx-10 min-w-[60px] w-[60px]' />
                     <img src={MongoDB} alt="MongoDB" className=' mx-10 min-w-[130px] w-[130px]' />
-                    <img src={Firebase} alt="Firebase" className=' mx-10 min-w-[130px] w-[130px]' />
                 </div>
                 <div className="flex items-center gap-1 scroll-right-to-left scroll-left-to-right">
-                    <img src={Node} alt="Node" className=' mx-10 min-w-[130px] w-[130px]' />
-                    <img src={Express} alt="Express" className=' mx-10 min-w-[130px] w-[130px]' />
+                    <img src={Sql} alt="Node" className=' mx-10 min-w-[60px] w-[60px]' />
+                    <img src={Java} alt="Node" className=' mx-10 min-w-[60px] w-[60px]' />
+                    <img src={Spring} alt="Express" className=' mx-10 min-w-[60px] w-[60px]' />
                     <img src={MongoDB} alt="MongoDB" className=' mx-10 min-w-[130px] w-[130px]' />
-                    <img src={Firebase} alt="Firebase" className=' mx-10 min-w-[130px] w-[130px]' />
-                    <img src={Node} alt="Node" className=' mx-10 min-w-[130px] w-[130px]' />
-                    <img src={Express} alt="Express" className=' mx-10 min-w-[130px] w-[130px]' />
+                    <img src={Sql} alt="Node" className=' mx-10 min-w-[60px] w-[60px]' />
+                    <img src={Java} alt="Node" className=' mx-10 min-w-[60px] w-[60px]' />
+                    <img src={Spring} alt="Express" className=' mx-10 min-w-[60px] w-[60px]' />
                     <img src={MongoDB} alt="MongoDB" className=' mx-10 min-w-[130px] w-[130px]' />
-                    <img src={Firebase} alt="Firebase" className=' mx-10 min-w-[130px] w-[130px]' />
                 </div>
             </div>
             <div className="w-[1100px] mx-auto max-w-full flex items-center whitespace-nowrap  mt-10 overflow-hidden ">
                 <div className="flex items-center gap-1 scroll-right-to-left">
                     <img src={Flowbite} alt="Flowbite" className=' mx-10 min-w-[130px] w-[130px]' />
-                    {/* <img src={DaisyUI} alt="DaisyUI" className=' mx-10 min-w-[130px] w-[130px]' /> */}
                     <img src={MaterialUI} alt="MaterialUI" className=' mx-10 min-w-[130px] w-[130px]' />
                     <img src={Github} alt="Github" className=' mx-10 min-w-[130px] w-[130px]' />
-                    {/* <img src={Jira} alt="Jira" className=' mx-10 min-w-[130px] w-[130px]' /> */}
+                    <img src={Jira} alt="Jira" className=' mx-10 min-w-[130px] w-[130px]' />
                     <img src={Flowbite} alt="Flowbite" className=' mx-10 min-w-[130px] w-[130px]' />
-                    {/* <img src={DaisyUI} alt="DaisyUI" className=' mx-10 min-w-[130px] w-[130px]' /> */}
                     <img src={MaterialUI} alt="MaterialUI" className=' mx-10 min-w-[130px] w-[130px]' />
                     <img src={Github} alt="Github" className=' mx-10 min-w-[130px] w-[130px]' />
                     <img src={Jira} alt="Jira" className=' mx-10 min-w-[130px] w-[130px]' />
                 </div>
                 <div className="flex items-center gap-1 scroll-right-to-left">
                     <img src={Flowbite} alt="Flowbite" className=' mx-10 min-w-[130px] w-[130px]' />
-                    {/* <img src={DaisyUI} alt="DaisyUI" className=' mx-10 min-w-[130px] w-[130px]' /> */}
                     <img src={MaterialUI} alt="MaterialUI" className=' mx-10 min-w-[130px] w-[130px]' />
                     <img src={Github} alt="Github" className=' mx-10 min-w-[130px] w-[130px]' />
                     <img src={Jira} alt="Jira" className=' mx-10 min-w-[130px] w-[130px]' />
                     <img src={Flowbite} alt="Flowbite" className=' mx-10 min-w-[130px] w-[130px]' />
-                    {/* <img src={DaisyUI} alt="DaisyUI" className=' mx-10 min-w-[130px] w-[130px]' /> */}
                     <img src={MaterialUI} alt="MaterialUI" className=' mx-10 min-w-[130px] w-[130px]' />
                     <img src={Github} alt="Github" className=' mx-10 min-w-[130px] w-[130px]' />
                     <img src={Jira} alt="Jira" className=' mx-10 min-w-[130px] w-[130px]' />

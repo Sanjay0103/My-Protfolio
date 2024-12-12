@@ -16,7 +16,7 @@ function About() {
                     <img class="w-10 h-10 rounded-full " src="https://www.wovlene.com/cm-admin/uploads/image/testimonial-3.jpg" alt="" />
                     <img class="w-10 h-10 rounded-full " src="https://www.wovlene.com/cm-admin/uploads/image/testimonial-2.jpg" alt="" />
                     <img class="w-10 h-10 rounded-full " src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/karen-nelson.png" alt="" />
-                    <a class="flex items-center justify-center w-10 h-10 text-xs font-medium text-white bg-gray-700 rounded-full" href="#">+99</a>
+                    <a class="flex items-center justify-center w-10 h-10 text-xs font-medium text-white bg-gray-700 rounded-full" href="#About">+99</a>
                 </div>
                 <div className="px-5 py-3 rounded-r-2xl rounded-bl-2xl mt-5 flex items-center justify-normal w-fit hover:ring-4 hover:ring-gray-700 bg-gray-800 flex-col">
                     <div className='text-gray-300 flex items-center justify-normal w-full'>{new Date().getHours() > 12 ? <div className='flex items-center justify-center gap-2'><span>Hi, Good AfterNoon</span> <span><FaCloudMoon /></span></div> : <div className='flex items-center justify-center gap-2'><span>Good Morning</span> <span><MdSunny /></span></div>}</div>
@@ -29,12 +29,11 @@ function About() {
                     <div className="py-5 px-7 rounded-l-2xl rounded-br-2xl mt-5 hover:ring-4 hover:ring-gray-700 flex leading-3 relative items-center justify-normal w-fit bg-gray-800 flex-col">
                         <div className='text-gray-300 flex items-center justify-normal absolute left-5 top-4 px-3 py-1 rounded-full w-fit bg-gray-500'>{new Date().getHours() > 12 ? <div className='flex items-center justify-center gap-2'><span>Hi, Good AfterNoon</span> <span><FaCloudMoon /></span></div> : <div className='flex items-center justify-center gap-2'><span>Good Morning</span> <span><MdSunny /></span></div>}</div> <br />
                         <div className="w-full leading-7 tracking-wider mt-7 lg:text-left text-justify indent-10 text-gray-400">
-                            I am a passionate computer science professional with a focus on website development and the MERN stack. 
-                            With a solid foundation in HTML, CSS, and JavaScript, 
-                            I have hands-on experience in front-end development using frameworks like Bootstrap and Tailwind CSS. 
-                            I led the front-end development for the "One Stop" project and completed official training in full-stack web development at Skill Safari Institute. 
-                            During my internship, I worked on converting their website using React JS, Tailwind CSS, and Firebase as the backend. 
-                            I am eager to leverage my skills in a dynamic professional environment. </div>
+                        I am an engineering graduate aspiring to become a skilled software developer. With a strong foundation in both front-end and back-end technologies, I am proficient in HTML, CSS, JavaScript, and frameworks like Bootstrap and ReactJS for front-end development. On the back-end, I have expertise in Java, SQL, and Spring Boot. 
+
+                        I am eager to leverage my technical skills and passion for software development to contribute to innovative and dynamic projects.
+
+ </div>
                     </div>
                 </div>
             </div>

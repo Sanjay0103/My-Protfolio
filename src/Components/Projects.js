@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import MovieTime from "../Images/Movie-Time.png";
-import Talkspace from "../Images/TalkSpace.png";
+// import Talkspace from "../Images/TalkSpace.png";
 import Cryptofx from "../Images/CryptoFx.png";
 import SolarSystem from "../Images/SolarSystem.png";
 import { Link } from 'react-router-dom';
@@ -25,13 +25,13 @@ function Projects() {
                     Movies, Tv Series, Entertainment Recomandation App, Users can enjoy their favorite Genres Entertainment
                     </div>
                 </Link>
-                <Link to={'https://chat-app-sooty-omega.vercel.app/login'} target='_blank' className=" p-3 rounded-2xl md:hover:translate-y-[-20px] duration-300 transition-all bg-gray-800 w-[350px] hover:bg-gray-950 shadow-3xl project">
+                {/* <Link to={'https://chat-app-sooty-omega.vercel.app/login'} target='_blank' className=" p-3 rounded-2xl md:hover:translate-y-[-20px] duration-300 transition-all bg-gray-800 w-[350px] hover:bg-gray-950 shadow-3xl project">
                     <img src={Talkspace} alt="" className='w-[350px] h-[190px] rounded-xl hover:border-2 hover:border-sky-600 project-card' />
                     <div className="text-[1.1rem] font-[600] text-white mt-5 mb-3 pl-4 whitespace-nowrap text-ellipsis text-center">Real Time chat App</div>
                     <div className="text-[14px] px-2 project-info text-gray-400">
                     A real-time chat application with features for user authentication, one-on-one and group messaging, and file sharing using React and Firebase.
                     </div>
-                </Link>
+                </Link> */}
                 <Link to={'https://cryptofx.vercel.app/'} target='_blank' className=" p-3 md:hover:translate-y-[-20px] duration-300 transition-all rounded-2xl bg-gray-800 w-[350px] hover:bg-gray-950 shadow-3xl project">
                     <img src={Cryptofx} alt="" className='w-[350px] h-[190px] rounded-xl hover:border-2 hover:border-sky-600 project-card' />
                     <div className="text-[1.1rem] font-[600] text-white mt-5 mb-3 pl-4 whitespace-nowrap text-ellipsis text-center">CryptoFX</div>

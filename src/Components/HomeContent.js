@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import { Link } from 'react-router-dom';
 import { FaCode } from "react-icons/fa6";
 // import RESUME from "../PDF/Resume.docx";
-import Resume from "../PDF/Resume_.pdf";
+import Resume from "../PDF/Resume.pdf";
 import { AiOutlineCloudDownload } from "react-icons/ai";
 import { MdOutlineFileDownloadDone } from "react-icons/md";
 import { FaGithub } from 'react-icons/fa6';
@@ -25,7 +25,7 @@ function HomeContent() {
                     <div className=" absolute -top-3 right-3 px-3 py-1 rounded-md bg-sky-600 text-white w-fit flex items-center text-[10px] md:text-[12px] justify-center gap-2 font-normal tracking-wide"><FaCode className='text-[10px] md:text-[12px]' />Coder</div>
                     S A N J A Y&nbsp;&nbsp; K U M A R
                 </h1>
-                <p class="mb-3 text-md font-normal text-gray-500  lg:text-xl sm:px-16 lg:px-48  tracking-wider">an Official <span className='text-white font-[600]'>MERN Stack Developer</span>, Specializing in Develop Website and Webapplication.</p>
+                <p class="mb-3 text-md font-normal text-gray-500  lg:text-xl sm:px-16 lg:px-48  tracking-wider">an official <span className='text-white font-[600]'>Software Developer</span>, Specializing in Develop Website and Application.</p>
                 <p class="mb-8 text-[12px] font-normal text-gray-500 lg:text-xl sm:px-16 lg:px-48 tracking-wider">A Web Developer is in charge of ensuring websites look good and function properly. Web developers collaborate with website and graphic designers, monitor website traffic, troubleshoot website problems when they arise, and update websites as necessary.</p>
                 <div class="flex flex-col space-y-4 sm:flex-row sm:justify-center sm:space-y-0 md:px-0 px-5">
                     <Link to='https://github.com/Sanjay0103' href="#" class="inline-flex justify-center items-center py-3 px-5 text-base font-medium tracking-wide text-center text-white rounded-lg bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-900">
